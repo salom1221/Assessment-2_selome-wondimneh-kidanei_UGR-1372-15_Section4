@@ -21,7 +21,7 @@ body {
   
   /* Header */
   header {
-      background:url(/src/images/header.jpg);
+      background:url(./src/images/header.jpg);
       object-fit: cover;
       padding: 20px 10%;
       display: flex;
@@ -44,9 +44,8 @@ body {
 
 /* Header Navigation Buttons */
 .nav-buttons{
-  display: flex; /* Arrange buttons horizontally */
-  gap: 10px; /* Add spacing between buttons */
-}
+  display: flex; 
+  gap: 10px;}
 
 .nav-buttons a{
   padding: 8px;
@@ -63,14 +62,14 @@ a:hover {
 
 /* Sidebar Navigation Buttons */
 .sidebar-buttons {
-  display: flex; /* Arrange buttons horizontally */
-  flex-direction: column; /* Stack buttons vertically */
-  gap: 10px; /* Add spacing between buttons */
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
 }
 
 .sidebar-buttons button {
-  width: 100%; /* Make sidebar buttons full-width */
-  text-align: left; /* Align text to the left */
+  width: 100%; 
+  text-align: left; 
 }
   /* Main Content */
 
