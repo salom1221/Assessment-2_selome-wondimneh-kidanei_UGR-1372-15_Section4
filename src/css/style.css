@@ -21,7 +21,7 @@ body {
   
   /* Header */
   header {
-      background:url(./src/images/header.jpg);
+      background:url(../images/header.jpg);
       object-fit: cover;
       padding: 20px 10%;
       display: flex;
