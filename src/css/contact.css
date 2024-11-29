@@ -1,0 +1,42 @@
+ /* Contact Form Styles (For Contact Page) */
+ .contact-container{
+    width: 68em;
+    margin: 0 auto;
+    padding: 0 32px;
+    border-top: none;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+ }
+ .contact-content{
+  line-height: 2.8em;
+ }
+ 
+ 
+ form {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 2em;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333333;
+    color: #ffffff;
+  }
+  
+  form button {
+    background: #ff5722;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #e64a19;
+  }
